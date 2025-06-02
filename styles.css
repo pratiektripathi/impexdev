@@ -402,6 +402,18 @@ footer {
     .hero-content p {
         font-size: 1rem;
     }
+
+    /* Add portfolio grid mobile styles */
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .portfolio-item iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
 }
 
 /* Animations */
